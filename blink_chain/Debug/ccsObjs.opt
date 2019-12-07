@@ -1,0 +1,1 @@
+"./main.o" "./libchain/chain.o" -T"../msp430fr5994.ld" -Wl,--start-group -lgcc -lc -Wl,--end-group 
